@@ -51,6 +51,21 @@ func (client *UI) Start(path string) {
 	client.window.ShowAndRun()
 }
 
+// Hide hides the Syndie application window but keeps it running in the background
+func (client *UI) Hide() {
+	client.window.Hide()
+}
+
+// Show shows the Syndie application window.
+func (client *UI) Show() {
+	client.window.Show()
+}
+
+// Close closes the Syndie UI and stops the application
+func (client *UI) Close() {
+	client.window.Close()
+}
+
 // Rehash reloads the database, reloads the avatar cache, and repaints the main window
 func (client *UI) Rehash() {
 	client.db.Reload()

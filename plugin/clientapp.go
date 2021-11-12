@@ -16,6 +16,7 @@ type SyndieClientApp struct {
 	Name        string
 	State       clientapp.ClientAppState
 	client      *ui.UI
+	shown       bool
 }
 
 // GetDisplayName() implements ClientApp in Java and in Go
@@ -39,6 +40,15 @@ func (e *SyndieClientApp) GetClientState() int {
 
 // Startup() implements ClientApp in Java and in Go
 func (e *SyndieClientApp) StartupClient() {
+	if e.State == clientapp.STARTED {
+		if e.shown {
+			e.client.Hide()
+			e.shown = false
+		} else {
+			e.client.Show()
+			e.shown = true
+		}
+	}
 	e.State = clientapp.STARTING
 	e.client = ui.NewUI()
 	usr, err := user.Current()
@@ -56,8 +66,11 @@ func (e *SyndieClientApp) StartupClient() {
 
 // Shutdown() implements ClientApp in Java and in Go. In go, Shutdown never takes args.
 func (e *SyndieClientApp) Shutdown() {
+	if e.State == clientapp.STOPPED {
+		return
+	}
 	e.State = clientapp.STOPPING
-
+	e.client.Close()
 	e.State = clientapp.STOPPED
 }
 
