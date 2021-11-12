@@ -22,5 +22,5 @@ require (
 	golang.org/x/sys v0.0.0-20210906170528-6f6e22806c34 // indirect
 	golang.org/x/text v0.3.7 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
-	i2pgit.org/idk/clientapp v0.0.0-20211111194422-35f49e85ec72 // indirect
+	i2pgit.org/idk/clientapp v0.0.0-20211112025726-7e3907d19db5 // indirect
 )

@@ -129,3 +129,5 @@ gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b h1:h8qDotaEPuJATrMmW04NCwg7v
 gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
 i2pgit.org/idk/clientapp v0.0.0-20211111194422-35f49e85ec72 h1:UtIivwfsLHIR5WbK3POkch9tEwYORE3ZQzi8Bg4uoFs=
 i2pgit.org/idk/clientapp v0.0.0-20211111194422-35f49e85ec72/go.mod h1:CVX1iNpqhKkRAAKhBY0nzvodlW+bCORh5haV41c80JA=
+i2pgit.org/idk/clientapp v0.0.0-20211112025726-7e3907d19db5 h1:/27yOEUYuEncYXIhZGWotAdWJtx0qSdB90N+MbuI15M=
+i2pgit.org/idk/clientapp v0.0.0-20211112025726-7e3907d19db5/go.mod h1:CVX1iNpqhKkRAAKhBY0nzvodlW+bCORh5haV41c80JA=

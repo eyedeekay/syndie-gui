@@ -40,7 +40,7 @@ func (e *SyndieClientApp) GetClientState() int {
 
 // Startup() implements ClientApp in Java and in Go
 func (e *SyndieClientApp) StartupClient() {
-	if e.State == clientapp.STARTED {
+	if e.State == clientapp.RUNNING {
 		if e.shown {
 			e.client.Hide()
 			e.shown = false
@@ -74,4 +74,4 @@ func (e *SyndieClientApp) Shutdown() {
 	e.State = clientapp.STOPPED
 }
 
-var ClientAppImpl interface{} = &SyndieClientApp{}
+//go:generate go run --tags=generate github.com/kpetku/syndie-gui/plugin/gen/
