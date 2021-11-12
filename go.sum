@@ -32,6 +32,11 @@ github.com/jackmordaunt/icns v0.0.0-20181231085925-4f16af745526/go.mod h1:UQkeMH
 github.com/jackpal/bencode-go v1.0.0 h1:lzbSPPqqSfWQnqVNe/BBY1NXdDpncArxShL10+fmFus=
 github.com/jackpal/bencode-go v1.0.0/go.mod h1:5FSBQ74yhCl5oQ+QxRPYzWMONFnxbL68/23eezsBI5c=
 github.com/josephspurrier/goversioninfo v0.0.0-20200309025242-14b0ab84c6ca/go.mod h1:eJTEwMjXb7kZ633hO3Ln9mBUCOjX2+FlTljvpl9SYdE=
+github.com/kpetku/libsyndie v0.0.0-20210516131102-ed0fc0ba41cc/go.mod h1:ZwkD3RbWFOeeVkaG/v/T/+VzYm8evCoZ2H40BtKyXN4=
+github.com/kpetku/libsyndie v1.0.0 h1:1NcyAb/dXp44dP6RKEUW32RNrR2ZSar0fXfpZpa16n4=
+github.com/kpetku/libsyndie v1.0.0/go.mod h1:ZwkD3RbWFOeeVkaG/v/T/+VzYm8evCoZ2H40BtKyXN4=
+github.com/kpetku/syndie-core v1.0.1 h1:UwmjxpUbKG/Y6H9eR82iFPPwRcnWZXC1L5DS3PPaxMg=
+github.com/kpetku/syndie-core v1.0.1/go.mod h1:NDsIGrElqdG6LhjeVm0YoscUaSnvXejgioM6NJyFmbg=
 github.com/kr/pty v1.1.1/go.mod h1:pFQYn66WHrOpPYNljwOMqo10TkYh1fy3cYio2l3bCsQ=
 github.com/kr/text v0.1.0 h1:45sCR5RtlFHMR4UwH9sdQ5TC8v0qDQCHnXt+kaKSTVE=
 github.com/kr/text v0.1.0/go.mod h1:4Jbv+DJW3UT/LiOwJeYQe1efqtUx/iVham/4vfdArNI=

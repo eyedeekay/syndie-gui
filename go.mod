@@ -2,9 +2,9 @@ module github.com/kpetku/syndie-gui
 
 go 1.16
 
-replace github.com/kpetku/syndie-core => /home/desktop/go/src/github.com/kpetku/syndie-core
+//replace github.com/kpetku/syndie-core => /home/desktop/go/src/github.com/kpetku/syndie-core
 
-replace github.com/kpetku/libsyndie => /home/desktop/go/src/github.com/kpetku/libsyndie
+//replace github.com/kpetku/libsyndie => /home/desktop/go/src/github.com/kpetku/libsyndie
 
 require (
 	fyne.io/fyne/v2 v2.0.4
