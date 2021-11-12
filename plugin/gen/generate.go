@@ -11,5 +11,5 @@ import (
 )
 
 func main() {
-	ioutil.WriteFile(SyndieClientApp+".java", []byte(GenerateJava(&plugin.SyndieClientApp{})), 0644)
+	ioutil.WriteFile("SyndieClientApp"+".java", []byte(GenerateJava(&plugin.SyndieClientApp{})), 0644)
 }
